@@ -1,0 +1,24 @@
+{% load static %} 
+<header >
+    <img class="background_esquerda" src="{% static 'img/background.png' %}" alt="" style="max-width: 150px;  transform: scaleX(-1); height: 100%;">
+    <img  class="logo" src="{% static 'img/logo.png' %}" alt="logo">
+    <nav id="navigator" class="navigator">
+        <a href="{%url 'home' %}" class="navigator-item">Home 
+            <!-- <img class="icon-arrow" src="{% static 'img/icones/seta-para-baixo.svg' %}" alt=""> -->
+        </a>
+        <a href="#sobre" class="navigator-item">Sobre 
+            <!-- <img class="icon-arrow" src="{% static 'img/icones/seta-para-baixo.svg' %}" alt=""> -->
+        </a>
+        <a href="#segmento" class="navigator-item" >Áreas de Atuação 
+            <!-- <img class="icon-arrow" src="{% static 'img/icones/seta-para-baixo.svg' %}" alt=""> -->
+        </a>
+        <!-- <a href="#clientes" class="navigator-item">Clientes  -->
+            <!-- <img class="icon-arrow" src="{% static 'img/icones/seta-para-baixo.svg' %}" alt=""> -->
+        <!-- </a> -->
+        <a href="#contato" class="navigator-item">Contato 
+            <!-- <img class="icon-arrow" src="{% static 'img/icones/seta-para-baixo.svg' %}" alt=""> -->
+        </a>
+        <img class="icon-button" src="{% static 'img/icones/lupa.png' %}" alt="lupa">
+    </nav>
+    <img class="background_direita" src="{% static 'img/background.png' %}" alt="" style="max-width: 150px;height: 100%;">
+</header>

@@ -1,0 +1,277 @@
+body{
+    margin: 0  auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 110px;
+    gap:30px;
+}
+
+a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    text-decoration: none;
+    color: #394F5E;
+    font-weight: 600;
+}
+
+h1{
+    color: #fff;
+    max-width: 350px;
+    font-size: 50px;    
+    font-weight: 100;
+    padding: 80px;
+}
+
+h2{
+    font-size: 40px;
+    color: #394F5E;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    gap:25px;
+    width: 70%;
+}
+
+.icon-arrow{
+    max-width: 15px;
+}
+
+.logo{
+    max-width: 130px;
+    max-height: 80px;
+}
+
+.icon-button{
+    max-width: 20px;
+}
+
+.home{
+    background: url("../img/fotos/banner.png") no-repeat;
+    margin-top: -42px;
+    width: 100%;
+    height: 550px;
+    background-size: 100%;
+}
+
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    gap:15%;
+    
+}
+
+.sobre::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    z-index: 1;
+    opacity: 0.1;
+    background: url("../img/background.png") no-repeat;
+    background-size: 80%;
+    background-position: right;
+}
+
+.sobre img{
+    max-width: 400px;
+    position: relative;
+    z-index: 2;
+}
+
+.purpose{
+    background: url("../img/fotos/purpose.png") no-repeat;
+    margin-top: -10px;
+    width: 100%;
+    height: 550px;
+    background-size: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.purpose::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 1;
+    opacity: 0.3;
+    background: url("../img/background.png") no-repeat;
+    background-size: 100%;
+    background-position: right;
+    right: -4px;
+    top: 1560px;
+}
+
+.segmento-header{
+    background: #394F5E;
+    width: 100%;
+    height: 250px;
+    margin-top: -75px;
+}
+
+.segmento-header h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    left: 600px;
+    position: relative;
+    top: 150px;
+}
+
+.segmento-header img {
+    max-width: 350px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    border-radius: 0 50px 0 0;
+}
+
+
+
+
+.separator{
+    background: url("../img/fotos/separador.png") no-repeat;
+    margin-top: 25px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.separator-text{
+    color: #fff;
+    max-width: 380px;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 250px 80px 80px 80px;
+}
+
+.expressao{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-header{
+    padding: 70px 70px 0 70px;
+}
+
+.exp-header p{
+    margin-top: -25px;
+}
+
+.exp-item{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px 0 70px;
+}
+
+.exp-item h3{
+    color: orange;
+    align-self: center;
+    font-size: 30px;
+}
+
+.exp-item-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp-item-content div{
+    /* background-color: #394F5E; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    max-width: 300px;
+}
+
+.contato{
+    display: flex;
+    padding: 70px;
+}
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:10px;
+
+}
+button{
+    width: 400px;
+    height: 40px;
+    background-color: #394F5E;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: bold;
+    border: none;
+}
+input{
+    border-radius: 12px;
+    width: 400px;
+    height: 40px;
+    border-color: #394F5E;
+    /* border: none; */
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #394F5E;
+    /* padding: 15px; */
+    height: 100%;
+    /* margin: 0 auto; */
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+.collumn-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.collumn-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.collumn-newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
